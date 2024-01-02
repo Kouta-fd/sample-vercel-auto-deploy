@@ -8,6 +8,24 @@ Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_mediu
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-typescript&project-name=with-typescript&repository-name=with-typescript)
 
+### 参考
+[Vercelにデプロイしてみよう](https://typescriptbook.jp/tutorials/vercel-deploy)
+
+## Hasky
+commitやpushをした際に任意のコマンドを自動で実行できる.
+
+### 参考
+[Hasky](https://typicode.github.io/husky/)
+[コードを綺麗に保ちたい？それhuskyでできるよ！](https://qiita.com/mu-suke08/items/43a492fda5cd71a31506)
+
+## CI/CD（Continuous Integration / Continuous Delivery）環境
+### CI/CDとは
+継続的インテグレーション/継続的デリバリーと呼ばれてたりする。ソフトウェアの変更やテスト、デプロイの自動化を行うことで高速な開発サイクルを回すソフトウェアの開発手法のひとつ。
+### GitHub Actions
+https://docs.github.com/ja/actions/quickstart
+
+VercelではGitHub連携が完了した段階で自動デプロイのCI/CD環境も自動で構築されるので、プルリクエストを作成・マージするだけで自動でデプロイがされる状態になっている。
+
 ## How to use it?
 
 Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
